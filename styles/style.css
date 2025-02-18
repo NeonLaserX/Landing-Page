@@ -1,0 +1,43 @@
+html {
+    font-family: 'Monaspace Neon', monospace;
+}
+
+.section-1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+
+}
+
+.section-2 {
+
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 75px 30%;
+    
+}
+
+.section-3 .quote {
+    font-style: italic;
+    font-size: 26px;
+    text-align: justify;
+}
+
+.section-3 .author-of-quote {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-4 {
+    
+}
+
+.section-5 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 30px 30%;
+}
