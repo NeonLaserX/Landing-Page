@@ -1,43 +1,27 @@
-html {
-    font-family: 'Monaspace Neon', monospace;
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url("../fonts/SF-Pro-Display-Regular.woff2") format('woff2'),
+    url("../fonts/SF-Pro-Display-Regular.woff") format('woff');
 }
 
-.section-1 {
-    background-color: #1f2937;
-    color: #f9faf8;
-
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url("../fonts/MonaspaceNeon-Regular.woff2") format("woff2"),
+    url("../fonts/MonaspaceNeon-Regular.woff") format("woff");
 }
 
-.section-2 {
-
+* {
+    box-sizing: border-box;
 }
 
-.section-3 {
-    background-color: #e5e7eb;
-    color: #1f2937;
-    padding: 75px 30%;
-    
+body {
+    font-family: 'MyCustomFont';
+    margin: 30px;
+    background-color: black;
+    color: white;
 }
 
-.section-3 .quote {
-    font-style: italic;
-    font-size: 26px;
-    text-align: justify;
-}
-
-.section-3 .author-of-quote {
-    text-align: right;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.section-4 {
-    
-}
-
-.section-5 {
-    background-color: #1f2937;
-    color: #f9faf8;
-    text-align: center;
-    padding: 30px 30%;
+a, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
 }
